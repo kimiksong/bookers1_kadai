@@ -1,0 +1,9 @@
+<%= flash[:success] %>
+<h3>Title:</h3>
+<%= @book.title %>
+<h3>Body:</h3>
+<%= @book.body %>
+<td><%= link_to "Edit", edit_book_path(@book) %></td>
+<span>
+  <a href="/books">Back</a>
+</span>
